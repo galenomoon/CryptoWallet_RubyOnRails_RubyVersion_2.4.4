@@ -1,14 +1,15 @@
 <h1>Seja Bem-Vindo!</h1>
-<p><strong>Data:</strong> <%= data_br(Date.today) %></p>
+<p>O idioma usado nesta aplicação é: <b><%= locale(I18n.locale)%></b> </p>
+<p> <b>Data:</b> <%= Date.today %></p>
 
 <%= render "menu" %>
  
 <p>
-    Você está em ambiente de <strong><%= ambiente_rails %></strong>
+    Você está em ambiente de <b><%= ambiente_rails %></b>
 </p>
 <p>
-   Eu sou uma variável de instância/sessão <strong><%= @meu_nome %></strong>
+   Eu sou uma variável de instância/sessão <b><%= @meu_nome %></b>
 </p>
 <p>
-    Meu curso é o curso de <strong><%= @curso %></strong>
+    Meu curso é o curso de <b><%= @curso %></b>
 </p>
