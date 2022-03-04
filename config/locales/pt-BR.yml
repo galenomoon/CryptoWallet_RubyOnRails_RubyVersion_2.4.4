@@ -4,6 +4,7 @@ pt-BR:
   hello: "Olá Mundo!"
   coins: "Moedas"
   mining_types: "Tipos de Mineração"
+  new_coin: "Nova Moeda"
   home:
     welcome: "Bem Vindo!"
     description: "Este é o CryptoWallet, um app para você cadastrar e acompanhar suas criptomoedas"
@@ -13,3 +14,9 @@ pt-BR:
     show: "Mostrar"
     delete: "Apagar"
     index: "Página Inicial"
+    back: "Voltar"
+  update_mining_type: "Atualizando Tipo de Mineração"
+  update_coin: "Atualizando Moedas"
+  labels:
+    description: "Descrição"
+    acronym: "Sigla"

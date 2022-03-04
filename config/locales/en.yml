@@ -34,6 +34,7 @@ en:
   hello: "Hello world"
   coins: "Coins"
   mining_types: "Mining Types"
+  new_coin: "New Coin"
   home:
     welcome: "Welcome!"
     description: "This is CryptoWallet, an app to you register and check your cryptocoins"
@@ -43,3 +44,9 @@ en:
     show: "Show"
     delete: "Delete"
     index: "Home"
+    back: "Back"
+    update_mining_type: "Update Mining Types"
+    update_coin: "Update Coins"
+  labels:
+    description: "Description"
+    acronym: "Acronym"
